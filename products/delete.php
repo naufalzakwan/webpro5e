@@ -1,6 +1,6 @@
 <?php 
     // create connection
-    include 'connect.php';
+    include '../connect.php';
 
     $sql = "DELETE FROM products WHERE id = $_GET[id]";
 
