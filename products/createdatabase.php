@@ -2,6 +2,7 @@
 $servername = "localhost";
 $username = "username";
 $password = "password";
+$dbname = "my5edb";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
